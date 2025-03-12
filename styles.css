@@ -33,6 +33,12 @@
     background-color: var(--yellow);
     
 }
+.flower-img {
+    max-width: 200px; 
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
 .slides > div {
     width: 100%; 
     text-align: left; 
@@ -91,5 +97,42 @@
     .project {
         flex: 1 1 100%; 
     }
+    .flowers-img {
+        display: none;
+    }
+}
+
+.flower1 {
+    position: absolute;
+    top: 1rem;  
+    left: 37rem;
+}
+.flower2 {
+    position: absolute;
+    top: 10rem;  
+    left: 50rem;
+}
+.flower3 {
+    position: absolute;
+    top: 20rem;  
+    left: 40rem;
+}
+.flower4 {
+    position: absolute;
+    top: 35rem;  
+    left: 50rem;
+}
+.flower5 {
+    position: absolute;
+    top: 50rem;  
+    left: 40rem;
+}
+.flower6 {
+    position: absolute;
+    top: 60rem;  
+    left: 50rem;
+}
+.flower-img {
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
 
